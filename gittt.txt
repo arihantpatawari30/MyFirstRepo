@@ -1,0 +1,114 @@
+    1  cd c:/git
+    2  git init
+    3  git add .
+    4  git commit -m "first"
+    5  git config --global user.name "asif"
+    6  git config --global user.email "asif_immanad"
+    7  git commit -m "first"
+    8  git log
+    9  git version
+   14  cd demos/git\ demo/
+   17  git config --global user.name "arihant patawari"
+   18  git config --global user.email "arihant_patawari@persistent.com"
+   19  git config 
+   20  git config user.name 
+   21  git config user.email 
+   23  git config --list
+   24  git init 
+   25  git branch -a
+   26  git branch HEAD
+   27  git branch
+   28  git add git1.txt 
+   29  git statud
+   30  git status
+   32  git checkout -b ari
+   33  git branch
+   34  git branch --help
+   35  git branch -d ari
+   36  git checkout master
+   37  git branch master
+   38  git checkout master
+   39  git status
+   40  git branch HEAD
+   41  git init 
+   42  git init 
+   43  git add git1.txt 
+   44  git status
+   45  git commit -m "original file"
+   46  git status
+   47  git status
+   48  git log
+   50  git add .
+   51  git status
+   52  git commit -m "change1" 
+   53  git log
+   54  git status
+   55  git status
+   56  git add .
+   57  git commit -m "change2" 
+   58  git status
+   59  git commit -am "change3" 
+   61  git commit --help
+   62  git log
+   63  git rebase -i HEAD^2
+   64  git rebase -i HEADgit init
+   65  git rebase -i HEAD~2
+   67  git log
+   68  git log --oneline
+   69  git log --oneline -2
+   70  git log --since=1-02-2018
+   71  git log --since=1-01-2018
+   72  git log --until=1-02-2018 --oneline
+   73  git log --until=1-02-2018 --since=1-02-2018
+   74  git log --until=1-02-2018 --since=1-01-2018
+   75  git log --author="ari" 
+   76  git log --grep="change"
+   77  git log --grep="change" --online
+   78  git log --grep="change" --oneline
+   79  git show
+   80  git --help
+   81  git diff
+   82  git diff
+   84  git status
+   86  git --help
+   87  git status
+   88  git status
+   89  git add .gitignore git1.txt 
+   90  git commit -m "change for gitignore"
+   91  git log
+   93  git log
+   94  git --help
+   95  git status
+   96  git diff
+   98  git status
+   99  git add .
+  100  git commit -m "change in file1"
+  101  git log --oneline
+  102  git diff --staged
+  103  git log -a
+  104  git log --help
+  105  git log -all
+  106  git log --all
+  108  git status
+  109  git add git2.txt 
+  110  git commit -m "new file2"
+  111  git log --oneline -5
+  113  git status
+  114  git rm  git2.txt 
+  115  git status
+  116  git commit -m "deleted file2"
+  117  git log --oneline
+  118  git status
+  119  git --help
+  120  git add .
+  121  git status
+  122  git commit -m "rename to rename"
+  123  git log --oneline
+  124  git checkout bd6d981
+  125  git log
+  126  git log --oneline
+  127  git checkout HEAD
+  128  git log
+  129  git checkout master
+  130  cd c:/githistory | grep "git" >> gittta.txt
+  131  history | grep "git" >> gittt.txt
