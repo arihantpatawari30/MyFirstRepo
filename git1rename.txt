@@ -10,3 +10,7 @@ change3
 change4
 
 change5
+
+clever change
+
+merge conflict master
