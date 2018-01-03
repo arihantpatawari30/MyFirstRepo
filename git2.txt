@@ -2,4 +2,6 @@ new file created
 
 change1 
 
-change2 in remote 
+change2 in remote for fetch
+
+change3 in remote for pull
