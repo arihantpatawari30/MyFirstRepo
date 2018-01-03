@@ -5,3 +5,5 @@ change1
 change2 in remote for fetch
 
 change3 in remote for pull
+
+change4 for push
